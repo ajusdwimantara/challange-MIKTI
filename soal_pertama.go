@@ -75,6 +75,7 @@ func main() {
 	fmt.Println()
 
 	// ======== dataset 2 ======= //
+	// ubah data yang di-point
 	poin_lumba2[0] = 97
 	poin_lumba2[1] = 112
 	poin_lumba2[2] = 101
@@ -83,18 +84,13 @@ func main() {
 	poin_koala[1] = 95
 	poin_koala[2] = 123
 
-	// assign data ke struct
-	for i := 0; i < len(poin_lumba2); i++ {
-		lumba2.poin[i] = &poin_lumba2[i]
-		koala.poin[i] = &poin_koala[i]
-	}
-
 	// compare untuk mencari tim yang menang
 	fmt.Println("DATASET 2")
 	compare(&lumba2, &koala)
 	fmt.Println()
 
 	// ======== dataset 3 ======= //
+	// ubah data yang di-point
 	poin_lumba2[0] = 97
 	poin_lumba2[1] = 112
 	poin_lumba2[2] = 101
@@ -102,12 +98,6 @@ func main() {
 	poin_koala[0] = 109
 	poin_koala[1] = 95
 	poin_koala[2] = 106
-
-	// assign data ke struct
-	for i := 0; i < len(poin_lumba2); i++ {
-		lumba2.poin[i] = &poin_lumba2[i]
-		koala.poin[i] = &poin_koala[i]
-	}
 
 	// compare untuk mencari tim yang menang
 	fmt.Println("DATASET 3")
