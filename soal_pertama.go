@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// struct untuk menyimpan poin tim lumba2
+// struct untuk menyimpan poin tim
 type Team struct {
 	/*
 		menggunakan pointer agar lebih hemat memory (tidak melakukan copy)

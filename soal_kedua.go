@@ -27,7 +27,7 @@ func isMarkHigherBMI(mark *PersonInfo, john *PersonInfo) bool { // assign by ref
 	return false
 }
 func main() {
-	// initiate variable untuk data dan apakah MBI Mark lebih tinggi dari John
+	// initiate variable untuk data dan apakah BMI Mark lebih tinggi dari John
 	var berat_mark float32
 	var tinggi_mark float32
 
